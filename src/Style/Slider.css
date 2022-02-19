@@ -1,0 +1,203 @@
+.sliderContainer {
+       width: 100%;
+       margin: 0 auto;
+}
+
+.lftSide {
+       margin-left: 5%;
+}
+
+.mainHeading {
+       font-size: 102px;
+       font-weight: 900;
+       text-transform: uppercase;
+       margin-top: 75px;
+}
+
+.mainHeading span {
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.mainSlideText {
+       font-size: 42px;
+       font-weight: 200;
+       margin-bottom: 70px;
+}
+
+.sliderBtn {
+       padding: 25px 45px;
+       border-radius: 50px;
+       box-shadow: 1px 1px 60px #ffffff4d;
+       font-size: 23px;
+       font-weight: 700;
+       text-transform: uppercase;
+       cursor: pointer;
+       border: 1px solid #fff;
+       background-color: #fff;
+       transition: ease all .2s;
+       margin-bottom: 100px;
+
+}
+
+.sliderBtn:hover {
+       padding: 22px 40px;
+}
+
+.sliderBtn span {
+       background-color: #fff !important;
+       background: linear-gradient(to right, #eb156c, #35a8df);
+       color: #eb156c;
+       font-size: 23px;
+       font-weight: 700;
+       text-transform: uppercase;
+       color: #eb156c;
+       background: -webkit-linear-gradient(10deg, #eb156c, #35a8df);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+/* Mint Your Space Cadets  */
+.mintSpaceCadet {
+       text-align: center;
+}
+
+.mintHeading {
+       padding-top: 150px;
+       text-align: center;
+       text-transform: uppercase;
+}
+
+.mintHeading h2 {
+       font-size: 84px;
+       font-weight: 900;
+       text-align: center;
+       text-transform: uppercase;
+       margin-bottom: 50px;
+}
+
+.mintHeading h2 span {
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.counterBnr {
+       width: 82%;
+       text-align: center;
+       margin: 0 auto;
+}
+
+.banner1 {
+       width: 100%;
+}
+
+.mint-box {
+       width: 100%;
+       padding: 80px 50px;
+       background: rgba(12, 52, 120, .1);
+       box-shadow: inset 61.1px -61.1px 61.1px rgb(9 40 91 / 10%), inset -61.1px 61.1px 61.1px hsl(0deg 0% 100% / 10%);
+       backdrop-filter: blur(122.2px);
+       -webkit-backdrop-filter: blur(122.2px);
+       border-radius: 20px;
+       overflow: hidden;
+       display: grid;
+       grid-template-columns: 220px auto;
+       grid-gap: 20px;
+}
+
+.mint-box-left {
+       background: transparent;
+}
+
+.quantity-box {
+       border: 2px solid #fff;
+       background: transparent;
+       border-radius: 50px;
+}
+
+.quantity-box span {
+       width: 100%;
+       background: transparent;
+       justify-content: center;
+       font-size: 43px;
+       font-weight: 700;
+       color: #fff;
+       padding: 0 30px;
+}
+
+.increase,
+.decrease {
+       background-color: transparent;
+       color: #051127;
+       width: 40px;
+       height: 40px;
+       margin-top: -25px;
+}
+
+button {
+       border: transparent;
+       background: transparent;
+       outline: none;
+}
+
+.mint-box-left p {
+       margin-top: 20px;
+       font-size: 20px;
+       font-weight: 600;
+       text-align: center;
+       text-transform: uppercase;
+       color: #fff;
+       background: transparent;
+}
+
+.mint-box-left p span {
+       font-size: 20px;
+       font-weight: 600;
+       text-align: center;
+       text-transform: uppercase;
+       color: #eb156c;
+}
+
+.mint-box-right {
+       background-color: transparent;
+}
+
+.mint-box-right button {
+       width: 100%;
+       height: 70px;
+       background: #fff;
+       box-shadow: 0 0 55px hsl(0deg 0% 100% / 35%);
+       border-radius: 100px;
+       transition: all .1s ease;
+       margin-bottom: 20px;
+}
+
+.mint-box-right button span {
+       background-color: #fff !important;
+       background: linear-gradient(to right, #eb156c, #35a8df);
+       color: #eb156c;
+       font-size: 23px;
+       font-weight: 700;
+       text-transform: uppercase;
+       color: #eb156c;
+       background: -webkit-linear-gradient(10deg, #eb156c, #35a8df);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.mint-box-right p {
+       font-size: 20px;
+       font-weight: 600;
+       text-align: center;
+       text-transform: uppercase;
+       background: transparent;
+       color: #fff;
+}
+
+.mint-box-right p span {
+       font-weight: 800;
+       color: #eb156c;
+       background: transparent;
+}

@@ -1,12 +1,15 @@
-import React from 'react'
-import "../Style/Header.css"
+import React, { useState } from 'react'
 import SpaceCadetLogo from "../Images/SpaceCadets.svg"
 import ConnectBtn from "../Images/connect-wallet-btn.svg"
+import { RiMenu3Fill } from 'react-icons/ri';
+import "../Style/Header.css"
 
 export default function Header() {
        const connectWallet = () => {
               alert("Minting Coming Soon!")
        }
+
+
        return (
               <>
                      <div className='HeaderContainer' >
@@ -19,12 +22,12 @@ export default function Header() {
                                           <li className='menuItems'>collabs</li>
                                           <li className='menuItems'>team</li>
                                           <li className='menuItems'>roadmap</li>
-                                          {/* <img src="" alt="" /> */}
+                                          <RiMenu3Fill className='HambugerIcon' />
                                           <img src={ConnectBtn} className="ConnectBtn" alt="connect-wallet-btn" onClick={connectWallet} />
-                                          {/* <button className='headerBtn'>connect wallet</button> */}
                                    </ul>
                             </div>
                      </div>
               </>
        )
 }
+// CgMenuRight

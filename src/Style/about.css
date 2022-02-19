@@ -1,0 +1,43 @@
+.about {
+       padding-top: 150px;
+       position: relative;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+}
+
+.container {
+       position: relative;
+       z-index: 2;
+       display: grid;
+       align-items: center;
+       grid-template-columns: 556px auto;
+       grid-gap: 80px;
+}
+
+.about-left {
+       width: 100%;
+}
+
+.about-left img {
+       width: 100%;
+       border-radius: 100px 0 100px 0;
+}
+
+.about-right h2 {
+       font-size: 84px;
+       font-weight: 900;
+       text-transform: uppercase;
+       margin-bottom: 20px;
+}
+
+.about-right h2 span {
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.about-right p {
+       font-size: 30px;
+       font-weight: 200;
+}

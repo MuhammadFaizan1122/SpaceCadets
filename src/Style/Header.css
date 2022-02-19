@@ -57,3 +57,42 @@
        background-color: transparent;
        cursor: pointer;
 }
+
+.HambugerIcon {
+       display: none;
+       font-size: 30px;
+       margin: 10px;
+       font-weight: 500;
+       cursor: pointer;
+}
+
+@media (max-width:1080px) {
+       .HambugerIcon {
+              display: block;
+              margin-top: -15px;
+              margin-right: 20px;
+       }
+
+       .menuItems {
+              display: none;
+       }
+
+       .ConnectBtn {
+              display: none;
+       }
+
+       .logoContainer {
+              margin: 20px;
+              margin-top: -10px;
+              width: 150px;
+       }
+
+       .siteLogo {
+              width: 100%;
+       }
+
+       .HeaderContainer {
+              display: flex;
+              justify-content: space-between;
+       }
+}
