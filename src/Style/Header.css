@@ -1,0 +1,59 @@
+* {
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+       background-color: #2d0d22;
+       color: #fff;
+}
+
+.HeaderContainer {
+       display: flex;
+       justify-content: space-around;
+}
+
+.siteLogo {
+       margin-top: 30px;
+}
+
+.MenuContainer {
+       justify-content: center;
+       align-items: center;
+}
+
+.MenuContainer ul {
+       display: flex;
+       margin-top: 50px;
+}
+
+.firstItem {
+       color: #eb156c;
+}
+
+.menuItems {
+       list-style: none;
+       font-size: 18px;
+       text-transform: uppercase;
+       padding: 10px;
+       font-weight: 500;
+       margin: 0px 20px;
+       cursor: pointer;
+       transition: ease all .4s;
+}
+
+.menuItems:hover {
+       color: #eb156c;
+}
+
+.headerBtn {
+       font-size: 18px;
+       text-transform: uppercase;
+       padding: 10px;
+       font-weight: 500;
+       cursor: pointer;
+}
+
+.ConnectBtn {
+       margin-top: -15px;
+       background-color: transparent;
+       cursor: pointer;
+}
