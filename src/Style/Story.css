@@ -1,0 +1,48 @@
+.story {
+       position: relative;
+       width: 100%;
+       padding-top: 150px;
+       display: flex;
+       background: transparent;
+       justify-content: center;
+}
+
+.story .container {
+       position: relative;
+       background: transparent;
+       z-index: 2;
+
+}
+
+.story .container .storySecHead {
+       font-size: 84px;
+       background: transparent;
+       font-weight: 900;
+       text-transform: uppercase;
+       display: block;
+       width: 1000px;
+}
+
+.storySpan {
+       background: transparent;
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.bg5 {
+       position: absolute;
+       margin-top: -450px;
+       right: 0;
+}
+
+.story-img {
+       width: 200%;
+       display: flex;
+       flex-direction: column;
+}
+
+.story-img .storyImgs {
+       width: 100%;
+       margin-bottom: 10px;
+}

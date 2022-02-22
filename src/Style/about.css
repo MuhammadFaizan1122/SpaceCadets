@@ -1,9 +1,11 @@
 .about {
-       padding-top: 150px;
        position: relative;
-       width: 100%;
+       width: 90%;
+       padding-top: 150px;
        display: flex;
        justify-content: center;
+       background: transparent;
+       margin: 0 auto;
 }
 
 .container {
@@ -12,6 +14,7 @@
        display: grid;
        align-items: center;
        grid-template-columns: 556px auto;
+       background: transparent;
        grid-gap: 80px;
 }
 
@@ -19,25 +22,32 @@
        width: 100%;
 }
 
-.about-left img {
+.about-left .aboutImg {
        width: 100%;
        border-radius: 100px 0 100px 0;
 }
 
-.about-right h2 {
+
+.about-right {
+       background: transparent;
+
+}
+
+.about-right .aboutHeading {
        font-size: 84px;
        font-weight: 900;
        text-transform: uppercase;
        margin-bottom: 20px;
 }
 
-.about-right h2 span {
+.about-right .aboutHeading .highlight {
        font-family: "Poppins";
        -webkit-text-stroke: 2px #fff;
        color: transparent;
 }
 
-.about-right p {
+.about-right .aboutdescription {
        font-size: 30px;
        font-weight: 200;
+       background: transparent;
 }

@@ -1,0 +1,101 @@
+.bg6 {
+       position: absolute;
+       top: -180px;
+       left: 0;
+}
+
+.Collabs {
+       position: relative;
+       width: 100%;
+       padding-top: 150px;
+       display: flex;
+       background: transparent;
+       justify-content: center;
+}
+
+.CollabsContainer {
+       position: relative;
+       background: transparent;
+       z-index: 2;
+}
+
+.topSection {
+       display: flex;
+       width: 90%;
+       flex-direction: column;
+       align-items: flex-end;
+       background: transparent;
+       margin-bottom: 80px;
+}
+
+.CollabsSecHead {
+       font-size: 80px;
+       font-weight: 900;
+       text-align: right;
+       text-transform: uppercase;
+       background: transparent;
+       margin-bottom: 20px;
+}
+
+.collabsText {
+       font-size: 30px;
+       font-weight: 200;
+       text-align: right;
+       color: #ffffff80;
+       background: transparent;
+}
+
+.collabsText span {
+       font-size: 30px;
+       font-weight: 200;
+       text-align: right;
+       color: #fff;
+       background: transparent;
+}
+
+.member-wrap {
+       width: 90%;
+       display: grid;
+       background: transparent;
+       margin: 0 auto;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 100px;
+}
+
+.member {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       background: transparent;
+       align-items: center;
+       animation: move 6s infinite;
+       position: relative;
+}
+
+@keyframes move {
+       0% {
+              top: 0px
+       }
+
+       50% {
+              top: 20px
+       }
+
+       100% {
+              top: 0px
+       }
+}
+
+.memberImg {
+       width: 100%;
+       background: transparent;
+       margin-bottom: 30px;
+}
+
+.member h4 {
+       font-size: 40px;
+       background: transparent;
+       font-weight: 700;
+       text-align: center;
+       text-transform: uppercase;
+}

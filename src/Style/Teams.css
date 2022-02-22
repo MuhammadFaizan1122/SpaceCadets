@@ -1,0 +1,171 @@
+.team1 {
+       position: relative;
+       width: 100%;
+       padding-top: 150px;
+       display: flex;
+       background: transparent;
+       justify-content: center;
+}
+
+.team1Container {
+       background: transparent;
+       position: relative;
+       z-index: 2;
+       left: 5%;
+}
+
+.team2Container {
+       background: transparent;
+       position: relative;
+       z-index: 2;
+       width: 90%;
+       max-width: 1600px;
+}
+
+.BgTeam {
+       position: relative;
+       top: -280px;
+       right: 0;
+}
+
+.sectionTop {
+       background: transparent;
+       display: flex;
+       flex-direction: column;
+       width: 180% !important;
+       margin-bottom: 80px;
+}
+
+.team1Heading {
+       font-size: 80px;
+       background: transparent;
+       font-weight: 900;
+       text-align: left;
+       text-transform: uppercase;
+       margin-bottom: 20px;
+}
+
+.teamSpan {
+       background: transparent;
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.team1Text {
+       font-size: 30px;
+       background: transparent;
+       font-weight: 200;
+       text-align: left;
+       color: #ffffff80;
+}
+
+
+.member-wrap2 {
+       width: 170%;
+       display: grid;
+       background: transparent;
+       margin: 0 auto;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 90px;
+}
+
+.member-wrap2 {
+       width: 170%;
+       display: grid;
+       background: transparent;
+       margin: 0 auto;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 90px;
+}
+
+.member {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       background: transparent;
+       align-items: center;
+       animation: move 6s infinite;
+       position: relative;
+}
+
+@keyframes move {
+       0% {
+              top: 0px
+       }
+
+       50% {
+              top: 20px
+       }
+
+       100% {
+              top: 0px
+       }
+}
+
+
+.memberImg {
+       width: 100%;
+       background: transparent;
+       margin-bottom: 30px;
+}
+
+.Teamh4 {
+       font-size: 40px;
+       font-weight: 700;
+       text-align: center;
+       text-transform: uppercase;
+       background: transparent;
+       margin-bottom: 10px;
+}
+
+.teamComember {
+       font-size: 20px;
+       font-weight: 400;
+       background: transparent;
+       text-align: center;
+       text-transform: uppercase;
+       color: #ffffff80;
+}
+
+.BgTeam2 {
+       position: absolute;
+       margin-top: -1100px !important;
+}
+
+.sectionTop2 {
+       background: transparent;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       margin-bottom: 80px;
+       margin-top: 150px;
+       margin-right: -5% !important;
+}
+
+.team2Heading {
+       font-size: 80px;
+       background: transparent;
+       font-weight: 900;
+       text-align: left;
+       text-transform: uppercase;
+       margin-bottom: 20px;
+}
+
+.team2Text {
+       font-size: 30px;
+       background: transparent;
+       font-weight: 200;
+       text-align: left;
+       color: #ffffff80;
+}
+
+.member-wrapTeam {
+       background: transparent;
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       grid-gap: 100px;
+       margin: 0 auto;
+       margin-left: 5%;
+}
