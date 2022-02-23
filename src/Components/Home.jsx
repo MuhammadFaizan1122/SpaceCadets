@@ -5,6 +5,7 @@ import Comunity from './Comunity'
 import Footer from './Footer'
 import Header from './Header'
 import MintSpaceCadet from './MintSpaceCadet'
+import RoadMap from './RoadMap'
 import Slider from './Slider'
 import Story from './Story'
 import Team1 from './Team1'
@@ -21,6 +22,7 @@ export default function Home() {
                      <Collabs />
                      <Team1 />
                      <Team2 />
+                     {/* <RoadMap /> */}
                      <Comunity />
                      <Footer />
               </div>

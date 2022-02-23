@@ -1,0 +1,76 @@
+.BgRoadmapImg {
+       position: absolute;
+       top: -280px;
+       right: 0;
+}
+
+.roadMap {
+       position: relative;
+       width: 100%;
+       padding-top: 150px;
+       display: flex;
+       justify-content: center;
+}
+
+.roadMapContainer {
+       position: relative;
+       z-index: 2;
+}
+
+.roadMapHead {
+       font-size: 80px;
+       font-weight: 900;
+       text-transform: uppercase;
+       margin-bottom: 80px;
+}
+
+.roadMapHead span {
+       font-family: "Poppins";
+       -webkit-text-stroke: 2px #fff;
+       color: transparent;
+}
+
+.launch-roadmap-wrapper {
+       width: 100%;
+       display: grid;
+       grid-template-columns: 556px auto;
+       grid-gap: 80px;
+}
+
+.roadmapLeft {
+       width: 100%;
+       height: 100%;
+       position: relative;
+}
+
+.roadmapImg {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       object-position: top;
+       border-radius: 100px 0 100px 0;
+}
+
+.raodmapRight {
+       width: 100%;
+       height: -webkit-fit-content;
+       height: -moz-fit-content;
+       height: fit-content;
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 60px;
+       position: relative;
+}
+
+.row-left {
+       min-width: 150px;
+       display: flex;
+       align-items: center;
+}
+
+.row-1-img {
+       margin-right: 20px;
+}
