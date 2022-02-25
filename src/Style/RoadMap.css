@@ -15,9 +15,12 @@
 .roadMapContainer {
        position: relative;
        z-index: 2;
+       background: transparent;
+       width: 90%;
 }
 
 .roadMapHead {
+       background: transparent;
        font-size: 80px;
        font-weight: 900;
        text-transform: uppercase;
@@ -25,6 +28,7 @@
 }
 
 .roadMapHead span {
+       background: transparent;
        font-family: "Poppins";
        -webkit-text-stroke: 2px #fff;
        color: transparent;
@@ -32,6 +36,7 @@
 
 .launch-roadmap-wrapper {
        width: 100%;
+       background: transparent;
        display: grid;
        grid-template-columns: 556px auto;
        grid-gap: 80px;
@@ -39,6 +44,7 @@
 
 .roadmapLeft {
        width: 100%;
+       background: transparent;
        height: 100%;
        position: relative;
 }
@@ -58,6 +64,7 @@
        width: 100%;
        height: -webkit-fit-content;
        height: -moz-fit-content;
+       background: transparent;
        height: fit-content;
        display: grid;
        grid-template-columns: 1fr;
@@ -67,10 +74,132 @@
 
 .row-left {
        min-width: 150px;
+       background: transparent;
        display: flex;
        align-items: center;
 }
 
 .row-1-img {
        margin-right: 20px;
+}
+
+
+.planetText {
+       margin-left: 60px;
+       background: transparent;
+       font-size: 22px;
+       font-weight: 200;
+       text-align: left;
+}
+
+.raodmapLeft {
+       width: 100%;
+       background: transparent;
+       height: 100%;
+       position: relative;
+}
+
+.roadmap-row-1 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-1 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #fc6f63, #9a01a4);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-row-2 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-2 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #ffd711, #e05c3c);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-row-3 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-3 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #f68aff, #5501ae);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-row-4 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-4 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #f67781, #6e2e7c);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-row-5 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-5 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #60d6ff, #971ddb);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-row-6 {
+       position: relative;
+       z-index: 2;
+       background: transparent;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.roadmap-row-6 .row-left h4 {
+       background: -webkit-linear-gradient(10deg, #ffd711, #e05c3c);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.roadmap-line {
+       position: absolute;
+       top: 4%;
+       left: 33px;
+       width: 2px;
+       height: 85%;
+       background: linear-gradient(180deg, #9c0258, #ffc919, #a42e53, #cc47ff, #6d01ca, #e46c78, #630157, #8ac9ff, #7901ba, #ffcc17);
 }

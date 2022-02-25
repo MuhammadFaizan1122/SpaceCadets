@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Collabs from './Collabs'
 import Comunity from './Comunity'
+import DevRoadMap from './DevRoadMap'
 import Footer from './Footer'
 import Header from './Header'
 import MintSpaceCadet from './MintSpaceCadet'
@@ -22,7 +23,8 @@ export default function Home() {
                      <Collabs />
                      <Team1 />
                      <Team2 />
-                     {/* <RoadMap /> */}
+                     <RoadMap />
+                     <DevRoadMap />
                      <Comunity />
                      <Footer />
               </div>

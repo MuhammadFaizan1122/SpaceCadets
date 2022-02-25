@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Style/Comunity.css"
-import BgFormImg from "../Images/BgFormImg.png"
+import Jupyter from "../Images/jupyter.png"
 
 export default function Comunity() {
        return (
@@ -28,7 +28,7 @@ export default function Comunity() {
                                           </div>
                                    </div>
                             </div>
-                            {/* <img src={BgFormImg} className="BgFormImg" alt="form-bg-image" /> */}
+                            {/* <img src={Jupyter} className="jupyter" alt="jupyters-bg-image" /> */}
                      </div>
               </>
        )
