@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SpaceCadetLogo from "../Images/SpaceCadets.svg"
+import SpaceCadetLogo from "../Images/Logo.png"
 import ConnectBtn from "../Images/connect-wallet-btn.svg"
 import { RiMenu3Fill } from 'react-icons/ri';
 import "../Style/Header.css"
@@ -15,6 +15,7 @@ export default function Header() {
                      <div className='HeaderContainer' >
                             <div className="logoContainer">
                                    <img src={SpaceCadetLogo} className="siteLogo" alt="space cadet nft" />
+                                   <h3 className='LogoText'>CLAY FRIENDS</h3>
                             </div>
                             <div className="MenuContainer">
                                    <ul>

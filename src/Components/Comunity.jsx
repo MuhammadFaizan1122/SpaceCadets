@@ -15,7 +15,7 @@ export default function Comunity() {
                                                  </h2>
                                                  <p className='comunityText'>
                                                         Join our forever growing and engaging community and join
-                                                        us Space Cadets on our extremely rewarding interplanetary
+                                                        us Clay Friends on our extremely rewarding interplanetary
                                                         expedition through time and space.
                                                  </p>
                                                  <div className="div-wrapper">

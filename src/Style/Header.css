@@ -2,7 +2,8 @@
        box-sizing: border-box;
        padding: 0;
        margin: 0;
-       background-color: #2d0d22;
+       background-color: #0e3b1d;
+       background: linear-gradient(to right, #82006e, #0e3b1d);
        color: #fff;
 }
 
@@ -11,17 +12,36 @@
        justify-content: space-between;
 }
 
+.logoContainer {
+       background: transparent;
+       height: 100px;
+}
+
 .siteLogo {
-       margin-top: 30px;
+       /* border: 1px solid; */
+       width: 125px !important;
+       height: 115px;
+       margin-top: 20px;
+       margin-left: 100px;
+       background: transparent;
+       width: 100%;
+}
+
+.LogoText {
+       background: transparent;
+       margin-left: 70px;
+       font-family: poppins;
 }
 
 .MenuContainer {
        justify-content: center;
        align-items: center;
+       background: transparent;
 }
 
 .MenuContainer ul {
        display: flex;
+       background: transparent;
        margin-top: 50px;
 }
 
@@ -54,7 +74,9 @@
 
 .ConnectBtn {
        margin-top: -15px;
-       background-color: transparent;
+       margin-right: 100px;
+       padding-left: 0;
+       background: transparent !important;
        cursor: pointer;
 }
 
@@ -88,6 +110,7 @@
        }
 
        .siteLogo {
+              border: 1px solid #fff !important;
               width: 100%;
        }
 

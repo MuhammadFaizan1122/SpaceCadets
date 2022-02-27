@@ -18,7 +18,7 @@ export default function Home() {
                      <Header />
                      <Slider />
                      <MintSpaceCadet />
-                     <About />
+                     {/* <About /> */}
                      {/* <Story /> */}
                      {/* <Collabs /> */}
                      {/* <Team1 /> */}
