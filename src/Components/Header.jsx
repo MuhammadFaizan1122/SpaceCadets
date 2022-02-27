@@ -18,10 +18,10 @@ export default function Header() {
                             </div>
                             <div className="MenuContainer">
                                    <ul>
-                                          <li className='menuItems firstItem'>Story</li>
-                                          <li className='menuItems'>collabs</li>
-                                          <li className='menuItems'>team</li>
-                                          <li className='menuItems'>roadmap</li>
+                                          {/* <li className='menuItems firstItem'>Story</li>npm start */}
+                                          {/* <li className='menuItems'>collabs</li>npm start */}
+                                          {/* <li className='menuItems'>team</li>npm start */}
+                                          {/* <li className='menuItems'>roadmap</li>npm start */}
                                           <RiMenu3Fill className='HambugerIcon' />
                                           <img src={ConnectBtn} className="ConnectBtn" alt="connect-wallet-btn" onClick={connectWallet} />
                                    </ul>

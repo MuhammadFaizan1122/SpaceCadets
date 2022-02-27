@@ -19,14 +19,14 @@ export default function Home() {
                      <Slider />
                      <MintSpaceCadet />
                      <About />
-                     <Story />
-                     <Collabs />
-                     <Team1 />
-                     <Team2 />
-                     <RoadMap />
-                     <DevRoadMap />
+                     {/* <Story /> */}
+                     {/* <Collabs /> */}
+                     {/* <Team1 /> */}
+                     {/* <Team2 /> */}
+                     {/* <RoadMap /> */}
+                     {/* <DevRoadMap /> */}
                      <Comunity />
-                     <Footer />
+                     {/* <Footer /> */}
               </div>
        )
 }
