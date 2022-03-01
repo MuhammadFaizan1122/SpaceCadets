@@ -92,6 +92,7 @@
        .HambugerIcon {
               display: block;
               margin-top: -15px;
+              background: transparent;
               margin-right: 20px;
        }
 
@@ -110,12 +111,36 @@
        }
 
        .siteLogo {
-              border: 1px solid #fff !important;
               width: 100%;
+              background: transparent;
        }
 
        .HeaderContainer {
               display: flex;
               justify-content: space-between;
+       }
+}
+
+@media (min-width:280px) and (max-width:480px) {
+       .logoContainer {
+              margin: 20px;
+              margin-top: -10px;
+              width: 100px;
+       }
+
+       .siteLogo {
+              width: 100% !important;
+              margin-left: 20px;
+              background: transparent;
+              width: 60px !important;
+              height: 60px;
+       }
+
+       .LogoText {
+              background: transparent;
+              margin-left: 0px;
+              font-size: 13px;
+              font-family: poppins;
+              margin-top: 10px;
        }
 }

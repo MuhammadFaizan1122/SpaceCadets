@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutBnr from "../Images/about-img.png"
-import "../Style/About.css"
+import "../Style/about.css"
 
 export default function About() {
        return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../Style/Slider.css"
 import PresaleBanner from "../Images/presale-banner.jpg"
 import { AiFillPlusCircle } from 'react-icons/ai';
@@ -6,6 +6,7 @@ import { AiFillMinusCircle } from 'react-icons/ai';
 
 
 export default function MintSpaceCadet() {
+
        return (
               <>
                      <div className="mintSpaceCadet">
@@ -29,11 +30,12 @@ export default function MintSpaceCadet() {
                                                         <p>MAX YOU CAN MINT ON PRESALE IS <span>3</span></p>
                                                  </div>
                                                  <div className="mint-box-right">
-                                                        <button>
-                                                               <span>coming soon</span>
-                                                        </button>
+                                                        <div>
+                                                               {/* <span>mint</span> */}
+                                                               <span className="mintTxt">mint</span>
+                                                        </div>
                                                         <p>YOU'RE ABOUT TO MINT 1 CLAY FRIENDS FOR <br />
-                                                               <span>0.07 ETH</span></p>
+                                                               <span>0.2 ETH</span></p>
                                                  </div>
 
                                           </div>

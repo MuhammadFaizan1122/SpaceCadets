@@ -6,7 +6,7 @@ export default function Slider() {
               <>
                      <div className="sliderContainer">
                             <div className="lftSide">
-                                   <h4 className='mainSlideText'>Congratulations you have been whitelisted should be up</h4>
+                                   <h4 className='mainSlideText'>Congratulations you have been whitelisted</h4>
                                    <h1 className='mainHeading'>Clay <span>Friends</span></h1>
                                    <button className='sliderBtn'>
                                           <span>Mint clay Friends</span>
