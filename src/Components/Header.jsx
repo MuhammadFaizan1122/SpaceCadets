@@ -14,7 +14,9 @@ export default function Header() {
               <>
                      <div className='HeaderContainer' >
                             <div className="logoContainer">
-                                   <img src={SpaceCadetLogo} className="siteLogo" alt="space cadet nft" />
+                                   <a href="/" style={{ background: "transparent" }}>
+                                          <img src={SpaceCadetLogo} className="siteLogo" alt="space cadet nft" />
+                                   </a>
                                    <h3 className='LogoText'>CLAY FRIENDS</h3>
                             </div>
                             <div className="MenuContainer">

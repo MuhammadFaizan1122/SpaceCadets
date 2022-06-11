@@ -25,7 +25,7 @@ export default function Home() {
                      {/* <Team2 /> */}
                      {/* <RoadMap /> */}
                      {/* <DevRoadMap /> */}
-                     <Comunity />
+                     {/* <Comunity /> */}
                      {/* <Footer /> */}
               </div>
        )
